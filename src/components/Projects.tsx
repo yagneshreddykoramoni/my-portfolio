@@ -44,8 +44,8 @@ const Projects = () => {
       subtitle: "Modern Full-Stack Developer Portfolio",
       description: "A comprehensive, responsive portfolio website showcasing skills, achievements, projects and technical expertise with modern design principles and GitHub integration.",
       technologies: ["ReactJS", "Tailwind CSS"],
-      github: "https://github.com/yagneshreddykoramoni/portfolio",
-      demo: "https://portfolio-demo.example.com",
+      github: "https://github.com/yagneshreddykoramoni/my-portfolio",
+      demo: "https://yagneshreddy.vercel.app/",
       features: [
         "GitHub activity integration and visualization",
         "Downloadable resume functionality",

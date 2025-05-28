@@ -1,6 +1,8 @@
 
 import React from 'react';
 import { Download, ArrowRight, Github, Linkedin } from 'lucide-react';
+import profileImage from './images/profile.jpg';
+import resumePdf from './pdfs/resume.pdf';
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -24,7 +26,7 @@ const Hero = () => {
             <div className="w-48 h-48 mx-auto rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 p-1 animate-pulse">
               <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-gray-800 flex items-center justify-center">
                 <img 
-                  src="/src/components/images/profile.jpg"
+                  src={profileImage}
                   alt="Yagnesh Reddy Koramoni"
                   className="w-full h-full object-cover rounded-full"
                 />
@@ -49,7 +51,7 @@ const Hero = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8">
             <button 
-              onClick={() => window.open('/src/components/pdfs/resume.pdf', '_blank')}
+              onClick={() => window.open(resumePdf, '_blank')}
               className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 hover:from-blue-700 hover:via-purple-700 hover:to-pink-700 text-white px-8 py-3 rounded-full font-semibold flex items-center space-x-2 transform hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-xl"
             >
               <Download size={20} />
