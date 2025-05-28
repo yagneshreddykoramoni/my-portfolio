@@ -8,7 +8,7 @@ const Certifications = () => {
       issuer: "Wingspan | Infosys Springboard",
       year: "May 2025",
       description: "Python Data Analysis certification course",
-      link: "https://drive.google.com/file/d/1vxMEbf23XF-E098v1YdyEiCkKxdYSmkP/view?usp=sharing" // Add your actual certificate link here
+      link: "https://drive.google.com/file/d/1vxMEbf23XF-E098v1YdyEiCkKxdYSmkP/view?usp=sharing"
     },
     {
       title: "TCS CodeVita Season 12 Rank",
