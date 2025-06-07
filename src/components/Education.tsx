@@ -7,7 +7,7 @@ const Education = () => {
     {
       institution: "Institute of Aeronautical Engineering, Hyderabad",
       degree: "B.Tech – CSE (Data Science)",
-      grade: "GPA: 7.82",
+      grade: "GPA: 7.91",
       duration: "Nov 2022 – Present",
       location: "Hyderabad",
       current: true
