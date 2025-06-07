@@ -4,6 +4,13 @@ import { Award, Calendar, ExternalLink } from 'lucide-react';
 const Certifications = () => {
   const certifications = [
     {
+      title: "The Ultimate Pandas Bootcamp",
+      issuer: "Udemy",
+      year: "May 2025",
+      description: "Advanced Python Data Analysis certification course",
+      link: "https://drive.google.com/file/d/13EPZ64ZQp7QwE-2SrG4Of_pI0a4boDhN/view?usp=sharing"
+    },
+    {
       title: "Become a Python Data Analyst",
       issuer: "Wingspan | Infosys Springboard",
       year: "May 2025",
